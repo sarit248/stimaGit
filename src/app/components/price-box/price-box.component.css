@@ -1,0 +1,11 @@
+
+div{
+    width:100px;
+    background-color:green;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: right;
+    padding-right:60px;
+    color: aliceblue;
+
+}

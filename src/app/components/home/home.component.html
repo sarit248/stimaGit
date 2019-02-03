@@ -1,0 +1,32 @@
+<div id="book" *ngFor="let b of booksArr">
+    <h3><img src='{{b.bookImage}}'> </h3>
+    <h3><app-price-box> {{b.price}} </app-price-box></h3>
+    <h3>{{b.booksName}} </h3>
+</div>
+<div class="math">
+    <h3>
+        Book's Avarage: {{ avarage }}     | 
+        Book's minPrice: {{ minPrice }}     | 
+        Book's maxPrice: {{ maxPrice }}
+    </h3>
+</div>
+
+
+
+
+
+<!-- <div id="book" *ngFor="let b of booksArr" > 
+
+ <div> 
+        <img src='{{b.bookImage}}'> 
+    </div>
+       
+       <div>
+    <app-price-box> {{b.price}} </app-price-box>
+    </div>
+
+    <div id="nameOfProduct">
+        {{b.booksName}}
+    </div>
+
+</div> -->
